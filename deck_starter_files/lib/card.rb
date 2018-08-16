@@ -1,7 +1,8 @@
 require 'pry-byebug'
 
 class Card
-    #attr_accessor :
+    attr_accessor :rank 
+    attr_accessor :suit
 
     def initialize(rank, suit) 
         @rank = rank  
